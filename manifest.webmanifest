@@ -14,7 +14,7 @@
       "sizes": "512x512"
     }
   ],
-  "start_url": "/?source=pwa",
+  "start_url": "/game-dist/?source=pwa",
   "background_color": "#6461f1",
   "display": "standalone",
   "scope": "/",
