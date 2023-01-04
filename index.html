@@ -2,11 +2,41 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0"
+    />
+    <meta name="Description" content="Experimental space game" />
     <title>game1</title>
-    <link rel="stylesheet" href="./main.css" />
+    <link rel="shortcut icon" href="favicon.ico" />
+    <link rel="stylesheet" href="output/main.css" type="text/css" />
+    <link rel="manifest" href="manifest.webmanifest" />
+    <link rel="apple-touch-icon" href="resources/icon-512x512.png" />
+
+    <script>
+      if ('serviceWorker' in navigator) {
+        window.addEventListener('load', () => {
+          navigator.serviceWorker
+            ?.register('service-worker.js')
+            .then(
+              () => {
+                console.log('Registered')
+              },
+              err => {
+                console.log('ServiceWorker registration failed: ', err)
+              }
+            )
+            .catch(err => {
+              console.log(err)
+            })
+        })
+      } else {
+        console.log('service worker is not supported')
+      }
+    </script>
   </head>
   <body>
     <div id="root"></div>
   </body>
-  <script src="./index.js"></script>
+  <script src="./output/index.js"></script>
 </html>

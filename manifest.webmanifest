@@ -1,0 +1,22 @@
+{
+  "short_name": "Game1",
+  "name": "Game1",
+  "description": "Experimental space game",
+  "icons": [
+    {
+      "src": "/resources/icon-192x192.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    },
+    {
+      "src": "/resources/icon-512x512.png",
+      "type": "image/png",
+      "sizes": "512x512"
+    }
+  ],
+  "start_url": "/?source=pwa",
+  "background_color": "#6461f1",
+  "display": "standalone",
+  "scope": "/",
+  "theme_color": "#6461f1"
+}
