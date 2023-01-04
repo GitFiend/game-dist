@@ -17,6 +17,6 @@
   "start_url": "/game-dist/?source=pwa",
   "background_color": "#6461f1",
   "display": "standalone",
-  "scope": "/",
+  "scope": "/game-dist/",
   "theme_color": "#6461f1"
 }
