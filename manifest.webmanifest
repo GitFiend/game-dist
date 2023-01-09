@@ -1,5 +1,5 @@
 {
-  "short_name": "Game1",
+  "short_name": "G1",
   "name": "Game1",
   "description": "Experimental space game",
   "icons": [
@@ -15,8 +15,8 @@
     }
   ],
   "start_url": "/game-dist/?source=pwa",
-  "background_color": "#6461f1",
+  "background_color": "#000000",
   "display": "standalone",
   "scope": "/game-dist/",
-  "theme_color": "#6461f1"
+  "theme_color": "#000000"
 }
