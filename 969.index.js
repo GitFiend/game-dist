@@ -1,0 +1,1 @@
+(self.webpackChunk=self.webpackChunk||[]).push([[969],{969:()=>{window.hello=function(l){console.log("Hello from "+l+"!")}}}]);
